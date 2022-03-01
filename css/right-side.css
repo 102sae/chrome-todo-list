@@ -1,0 +1,16 @@
+.right-side {
+  width: 350px;
+  height: 600px;
+  border-radius: 48% 45% 57% 37%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  position: relative;
+}
+
+#weather {
+  position: absolute;
+  top: 10%;
+}

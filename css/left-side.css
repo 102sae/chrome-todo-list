@@ -1,0 +1,38 @@
+.left-side {
+  width: 350px;
+  height: 600px;
+  border-radius: 37% 57% 45% 48%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.left-side__title {
+  font-size: 36px;
+  position: absolute;
+  top: 8%;
+  left: 25%;
+}
+
+#todo-form {
+  position: absolute;
+  top: 18%;
+  left: 13%;
+}
+
+#todo-list {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  list-style: none;
+}
+
+button {
+  margin-left: 20px;
+  border-radius: 37% 57% 45% 48%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgb(243, 243, 239);
+}

@@ -6,43 +6,50 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Momentum App</title>
   </head>
+
   <body>
-    <h2 id="clock">00:00:00</h2>
+    <section class="left-side">
+      <span class="left-side__title">To do List</span>
+      <form id="todo-form">
+        <input type="text" placeholder="Write a To Do." />
+      </form>
 
-    <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <input type="submit" value="Log In" />
-    </form>
-    
+      <ul id="todo-list"></ul>
+    </section>
 
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter.">
-    </form>
-    
-    <ul id="todo-list"></ul>
+    <section class="middle">
+      <h2 id="clock">00:00:00</h2>
 
-    <h1 class="hidden" id="greeting"></h1>
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
+      <form class="hidden" id="login-form">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In" />
+      </form>
 
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
-    
+      <h1 class="hidden" id="greeting"></h1>
+
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="right-side">
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/background.js"></script>
     <script src="js/weather.js"></script>
-    
   </body>
 </html>
