@@ -14,3 +14,36 @@
   position: absolute;
   top: 10%;
 }
+
+.weather-city {
+  display: block;
+}
+
+#weather span {
+  font-size: 22px;
+}
+
+.bookmarks {
+  margin-top: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 38% 35% 47% 27%;
+  padding: 10px 10px;
+}
+
+.bookmarks span {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  font-size: 22px;
+  padding: 10px 10px;
+}
+.bookmarks img {
+  height: 70px;
+  width: 70px;
+  border-radius: 10%;
+  margin-right: 10px;
+}
